@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background: linear-gradient(to top, #43e1cc, #36f162);
+}
+
+.wrapper-content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cv-download-button {
+	background-color:transparent;
+	border-radius:28px;
+	border:3px solid #d4d6db;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	}
+
+.name {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 3em;
+    color: beige;
+    margin-bottom: 2px;
+}
+
+.job-name {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 1.5em;
+    color: #0e3832;
+    margin-bottom: 15px;
+}
